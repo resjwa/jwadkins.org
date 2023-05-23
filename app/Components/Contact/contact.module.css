@@ -1,0 +1,40 @@
+.contactList {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  margin-top: 2rem;
+  font-size: 1.2rem;
+  width: 600px;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  width: 100%;
+  max-width: 600px;
+  margin: auto;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.contactList li {
+  width: 13rem;
+  padding: 0.3rem 0;
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+
+.contactList li a {
+  display: flex;
+  align-items: center;
+}
+
+.contactList svg {
+  width: 1.5rem;
+  height: 1.5rem;
+  margin-right: 0.3rem;
+}
+
+@media screen and (max-width: 500px) {
+  .contactList {
+    width: 230px;
+  }
+}

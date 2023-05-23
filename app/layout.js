@@ -1,7 +1,6 @@
+import Header from './Components/Header/Header';
 import './globals.css';
-import { Inter } from 'next/font/google';
-
-const inter = Inter({ subsets: ['latin'] });
+import { bodyFont } from './util/fonts';
 
 export const metadata = {
   title: 'J.W. Adkins - UX Engineering',
@@ -11,7 +10,10 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang='en'>
-      <body className={inter.className}>{children}</body>
+      <body className={`${bodyFont.className}`}>
+        <Header />
+        <main>{children}</main>
+      </body>
     </html>
   );
 }
