@@ -1,7 +1,10 @@
 .card {
   background: #fff;
-  max-width: 720px;
+  flex: 1;
+  max-width: 800px;
   width: 100%;
+  margin: 1rem;
+  flex-basis: 530px;
 }
 
 .card img {
@@ -12,5 +15,6 @@
 @media screen and (max-width: 768px) {
   .card {
     max-width: 100%;
+    margin: 1rem 0;
   }
 }

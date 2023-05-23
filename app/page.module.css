@@ -5,6 +5,8 @@
   font-size: 0.8rem;
   text-align: right;
   margin-top: -0.5rem;
+  max-width: 100%;
+  margin-bottom: 0;
 }
 
 .imgWCaption {
@@ -15,12 +17,44 @@
 
 .hero {
   display: flex;
-  align-items: center;
-  flex-direction: column;
+  align-items: flex-start;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: stretch;
+  justify-content: center;
 }
 
 .hero h2 {
   padding: 0 0 1rem 1rem;
   margin-top: 1rem;
   border-bottom: 1px solid #f6f6f6;
+  flex: 1;
+}
+.bio {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+.bio .joe {
+  width: 7.188rem;
+  height: auto;
+  flex: 0;
+}
+
+.copy {
+  padding: 2rem;
+}
+.copy p {
+  max-width: 85%;
+}
+.bioHeader {
+  display: flex;
+  margin-bottom: -4rem;
+  align-items: flex-start;
+}
+
+@media screen and (max-width: 768px) {
+  .bioHeader {
+    margin-bottom: -3rem;
+  }
 }

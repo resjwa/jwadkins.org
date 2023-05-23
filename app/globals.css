@@ -35,6 +35,11 @@ h2 {
 main {
   margin: 0 1rem;
 }
+p {
+  margin-bottom: 1.5rem;
+  line-height: 1.5;
+  max-width: 32.5rem;
+}
 
 @media screen and (max-width: 768px) {
   main {
