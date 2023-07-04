@@ -1,0 +1,8 @@
+.tools {
+  list-style: none;
+}
+
+.tools svg {
+  width: 100px;
+  height: auto;
+}

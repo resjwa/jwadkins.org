@@ -1,5 +1,3 @@
-import { SiAdobe, SiReact, SiNextdotjs, SiJavascript, SiHtml5, SiCss3, SiSvelte, SiVuedotjs, SiVercel } from 'react-icons/si';
-import { RxAccessibility } from 'react-icons/rx';
 import { AiOutlinePhone, AiOutlineMail, AiOutlineLinkedin, AiOutlineGithub } from 'react-icons/ai';
 import styles from './contact.module.css';
 

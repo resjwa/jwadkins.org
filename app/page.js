@@ -4,6 +4,7 @@ import styles from './page.module.css';
 import Contact from './Components/Contact/Contact';
 import MaxWidth from './Components/MaxWidth/MaxWidth';
 import { headerFont } from './util/fonts';
+import Tools from './Components/Tools/Tools';
 
 export default function Home() {
   return (
@@ -55,7 +56,6 @@ export default function Home() {
           </div>
         </Card>
       </section>
-      <section></section>
     </MaxWidth>
   );
 }

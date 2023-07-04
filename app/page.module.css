@@ -17,7 +17,6 @@
 
 .hero {
   display: flex;
-  align-items: flex-start;
   flex-direction: row;
   flex-wrap: wrap;
   align-items: stretch;
@@ -39,6 +38,13 @@
   width: 7.188rem;
   height: auto;
   flex: 0;
+}
+.contact,
+.bioCont {
+  flex-basis: 500px;
+}
+.tools {
+  min-width: 100%;
 }
 
 .copy {
