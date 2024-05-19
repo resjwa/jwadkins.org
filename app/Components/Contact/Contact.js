@@ -15,12 +15,6 @@ const Contact = () => {
         </a>
       </li>
       <li>
-        <a href='tel:3473214403'>
-          <AiOutlinePhone />
-          347.321.4403
-        </a>
-      </li>
-      <li>
         <a href='https://github.com/resjwa'>
           <AiOutlineGithub />
           /resjwa
