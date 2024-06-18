@@ -50,7 +50,7 @@ export default function Home() {
                   American Association of Pediatrics, Actress Halle Berry, FKA The STAPLES Center, and the US Government.
                 </p>
                 <p>
-                  As a UX Engineer, I work as a key collaborator with Product Owners and Business Executives to identify and solve user-centric
+                  I work as a key collaborator with Product Owners and Business Executives to identify and solve user-centric
                   business problems in the Digital Product space.
                 </p>
               </div>
