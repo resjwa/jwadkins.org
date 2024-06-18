@@ -3,8 +3,8 @@ import './globals.css';
 import { bodyFont } from './util/fonts';
 
 export const metadata = {
-  title: 'J.W. Adkins - UX Engineering',
-  description: 'Portfolio site for technology team leader Joe Adkins',
+  title: 'J.W. Adkins - Technology team leadership',
+  description: 'Contact information for technology team leader Joe Adkins',
 };
 
 export default function RootLayout({ children }) {
